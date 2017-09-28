@@ -7,16 +7,19 @@
     </head>
     <body>
         <div class="photo-view">
-            <img src="img/penguins.jpg">
+            <img src="img/penguins.jpg" alt="Your Photo">
         </div>
         <div class="controls">
-            <ul class="sliders">
-                <li>Brightness</li>
-                <li>Contrast</li>
-                <li>Saturation</li>
-                <li>Save</li>
-            </ul>
+            <div class="sliders">
+                <button onclick="toggleBrightness()">Brightness</button>
+                    <li id="brightness">Slider</li>
+                <button onclick="toggleContrast()">Contrast</button>
+                    <li id="contrast">Slider</li>
+                <button onclick="toggleSaturation()">Saturation</button>
+                    <li id="saturation">Slider</li>
+                <button>Save</button>
+            </div>
         </div>
-
+        <script src="scripts.js"></script>
     </body>
 </html>

@@ -41,7 +41,7 @@ li {
     .photo-view, img {
         max-width: 500px;
         margin: auto;
-        padding-top: .5%; 
+        padding-top: .5%;
     }
 
     .controls {
@@ -60,6 +60,7 @@ li {
         text-align: center;
         background-color: white;
         margin-top: 0;
+
     }
 
     .sliders, li {
@@ -68,5 +69,28 @@ li {
         padding-bottom: 5px;
         padding-left: 0;
         padding-right: 0;
+        border: solid;
+
+
+    }
+
+    .sliders, button {
+        display: block;
+        margin: auto;
+    }
+
+    #brightness {
+        display: none;
+
+    }
+
+    #contrast {
+        display: none;
+
+    }
+
+    #saturation {
+        display: none;
+
     }
 }
