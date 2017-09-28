@@ -48,7 +48,7 @@ li {
         width: 45%;
         margin: auto;
         border: solid;
-        padding-top: 1%;
+        padding-top: .5em;
         background-color: white;
         margin-top: 5px;
 
@@ -61,15 +61,15 @@ li {
         background-color: white;
         margin-top: 0;
 
+
     }
 
     .sliders, li {
         margin: auto;
-        padding-top: 5px;
+        padding-top: 0px;
         padding-bottom: 5px;
         padding-left: 0;
         padding-right: 0;
-        border: solid;
 
 
     }
