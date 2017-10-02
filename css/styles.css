@@ -30,7 +30,7 @@ li {
 
 }
 
-.photo-load {
+#photo-load {
     position: absolute;
     top: 50%;
     left: 39%;
@@ -45,7 +45,7 @@ li {
     margin: auto;
     background-color: white;
     padding-top: .5em;
-    border: solid; 
+    border: solid;
 
 }
 
@@ -91,7 +91,7 @@ li {
 
     }
 
-    .photo-load {
+    #photo-load {
         position: absolute;
         top: 50%;
         left: 44%;
