@@ -14,13 +14,27 @@ li {
 
 
 /*
-*======Photo View Area======
+*======Photo Load and View Area======
 */
 .photo-view {
     width: 100%;
+    margin: auto;
+    border: solid;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: white;
+    position: relative;
 }
+
 .photo-view, img {
-    width: 100%;
+
+}
+
+.photo-load {
+    position: absolute;
+    top: 50%;
+    left: 39%;
+
 }
 
 /*
@@ -29,19 +43,27 @@ li {
 .controls {
     width: 100%;
     margin: auto;
+    background-color: white;
+    padding-top: .5em;
+    border: solid; 
+
 }
 
 .sliders {
     width: 100%;
     margin: auto;
     text-align: center;
+    padding-bottom: 10px;
+
+
 
 }
 
 .sliders, button {
     display: block;
     margin: auto;
-    
+
+
 
 
 }
@@ -57,6 +79,7 @@ li {
         text-align: center;
         margin-bottom: 10px;
         background-color: white;
+        position: relative;
     }
 
     .photo-view, img {
@@ -64,6 +87,14 @@ li {
         margin: auto;
         padding-top: .5%;
 
+
+
+    }
+
+    .photo-load {
+        position: absolute;
+        top: 50%;
+        left: 44%;
 
     }
 
