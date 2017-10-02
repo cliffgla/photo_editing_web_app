@@ -9,10 +9,3 @@ function toggle(id) {
     }
 
 }
-
-function imageLoad(id) {
-    var x = document.getElementById(id);
-    if ()
-
-
-}
