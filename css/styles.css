@@ -73,13 +73,26 @@ li {
 
 @media (min-width: 769px) {
     .photo-view {
-        width: 70%;
-        margin: auto;
+        width: 68%;
+        margin: ;
         border: solid;
         text-align: center;
         margin-bottom: 10px;
         background-color: white;
         position: relative;
+        display: inline-block;
+    }
+
+    .controls {
+        width: 30%;
+        margin: ;
+        border: solid;
+        padding-top: .5em;
+        background-color: white;
+        margin-top: ;
+        display: inline-block;
+        vertical-align: top;
+
     }
 
     .photo-view, img {
@@ -98,15 +111,7 @@ li {
 
     }
 
-    .controls {
-        width: 70%;
-        margin: auto;
-        border: solid;
-        padding-top: .5em;
-        background-color: white;
-        margin-top: 5px;
 
-    }
 
     .sliders {
         list-style: none;
@@ -118,18 +123,14 @@ li {
 
     }
 
-    .sliders, li {
+    .sliders button {
         margin: auto;
-        padding-top: 0px;
-        padding-bottom: 5px;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 5px 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
 
 
     }
 
-    .sliders, button {
-        display: block;
-        margin: auto;
-    }
+    
 }
