@@ -40,7 +40,7 @@ li {
 /*
 *======Editing Controls======
 */
-.mobile-controls {
+.mobile-control-box {
     width: 100%;
     margin: auto;
     background-color: white;
@@ -62,10 +62,11 @@ li {
 .mobile-sliders, button {
     display: block;
     margin: auto;
+
 }
 
-.controls {
-    display: none; 
+.control-box {
+    display: none;
 }
 
 #brightness {
@@ -88,7 +89,7 @@ li {
         display: inline-block;
     }
 
-    .controls {
+    .control-box {
         width: 30%;
         margin: ;
         border: solid;
@@ -100,11 +101,20 @@ li {
 
     }
 
-    .mobile-controls {
+    .mobile-control-box {
         display: none;
 
     }
 
+    .control-title {
+        font-size: 1.5em;
+        background-color: pink;
+        border-radius: 1%;
+        margin: 1%;
+    }
+
+    
+    }
     .mobile-sliders {
         display: none;
     }
@@ -112,8 +122,6 @@ li {
         max-width: 70%;
         margin: auto;
         padding-top: .5%;
-
-
 
     }
 
@@ -136,7 +144,7 @@ li {
 
     }
 
-    .sliders button {
+    .sliders h3 {
         margin: auto;
         padding: 5px 5px;
         margin-top: 5px;
