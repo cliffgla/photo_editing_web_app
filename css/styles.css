@@ -7,6 +7,7 @@ body {
     flex-wrap: wrap;
     margin-top: 0;
     background-color: grey;
+
 }
 
 li {
@@ -19,9 +20,8 @@ li {
 *======Photo Load and View Area======
 */
 .photo-view {
-    flex-wrap: wrap;
-
-    margin: auto;
+    flex-wrap: ;
+    margin-top: 0;
     border: solid;
     text-align: center;
     margin-bottom: 10px;
@@ -47,6 +47,7 @@ li {
 .slider-control {
 
 }
+
 .control-box {
     margin: ;
     border: solid;
@@ -58,67 +59,39 @@ li {
 
 }
 
+.control-title {
+    font-size: 1.5em;
+    background-color: pink;
+    border-radius: 1%;
+    margin: 1%;
+}
+
+.sliders {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 0;
+}
+
 
 /*
 *======Media Queries======
 */
 
-@media (min-width: 769px) {
+@media (min-width: 500px) {
 
 
 
 
+}
 
-
-
-    .control-title {
-        font-size: 1.5em;
-        background-color: pink;
-        border-radius: 1%;
-        margin: 1%;
+/*
+@media (min-width: 500px) {
+    .control-box {
+        width: 100%;
     }
-
-
-    }
-
-    }
-    .photo-view, img {
-        max-width: 70%;
-        margin: auto;
-        padding-top: .5%;
-
-    }
-
-    #photo-load {
-        position: absolute;
-        top: 50%;
-        left: 44%;
-
-    }
-
-
-
-    .sliders {
-        list-style: none;
-        margin: auto;
-        text-align: center;
-        background-color: white;
-        margin-top: 0;
-
-
-    }
-
-    .sliders h3 {
-        margin: auto;
-        padding: 5px 5px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-
-    }
-
-    #brightness {
-        display: block ;
-    }
+*/
 
 
 }
