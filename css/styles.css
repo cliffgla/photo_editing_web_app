@@ -3,6 +3,8 @@
 */
 
 body {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 0;
     background-color: grey;
 }
@@ -17,18 +19,18 @@ li {
 *======Photo Load and View Area======
 */
 .photo-view {
-    width: 100%;
+    flex-wrap: wrap;
+
     margin: auto;
     border: solid;
     text-align: center;
     margin-bottom: 10px;
     background-color: white;
     position: relative;
+    flex-grow: 2;
 }
 
-.photo-view, img {
 
-}
 
 #photo-load {
     position: absolute;
@@ -40,71 +42,34 @@ li {
 /*
 *======Editing Controls======
 */
-.mobile-control-box {
-    width: 100%;
-    margin: auto;
-    background-color: white;
-    padding-top: .5em;
-    border: solid;
+
+
+.slider-control {
 
 }
-
-.mobile-sliders {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    padding-bottom: 10px;
-
-
-
-}
-
-.mobile-sliders, button {
-    display: block;
-    margin: auto;
-
-}
-
 .control-box {
-    display:none;
+    margin: ;
+    border: solid;
+    padding-top: .5em;
+    background-color: white;
+    margin-top: ;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
 }
 
-#brightness {
-    display: none;
 
-}
 /*
 *======Media Queries======
 */
 
 @media (min-width: 769px) {
-    .photo-view {
-        width: 68%;
-        margin: ;
-        border: solid;
-        text-align: center;
-        margin-bottom: 10px;
-        background-color: white;
-        position: relative;
-        display: inline-block;
-    }
 
-    .control-box {
-        width: 30%;
-        margin: ;
-        border: solid;
-        padding-top: .5em;
-        background-color: white;
-        margin-top: ;
-        display: inline-block;
-        vertical-align: top;
 
-    }
 
-    .mobile-control-box {
-        display: none;
 
-    }
+
+
 
     .control-title {
         font-size: 1.5em;
@@ -115,7 +80,7 @@ li {
 
 
     }
-    
+
     }
     .photo-view, img {
         max-width: 70%;

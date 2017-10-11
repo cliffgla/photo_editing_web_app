@@ -11,25 +11,15 @@
             </canvas>
             <input id="photo-load" type="file" value="Upload"/>
         </div>
-        <div class="mobile-control-box">
-            <div class="mobile-sliders">
-                <button  type ="submit" id="bright-button"onclick="toggle('brightness')">Brightness</button>
-                    <li id="brightness" style="display:none">Slider</li>
-                <button type ="submit" onclick="toggle('contrast')">Contrast</button>
-                    <li type ="submit" id="contrast" style="display:none">Slider</li>
-                <button type ="submit" onclick="toggle('saturation')">Saturation</button>
-                    <li id="saturation" style="display:none">Slider</li>
-                <button>Save</button>
-            </div>
-        </div>
+        
         <div class="control-box">
             <div class="sliders">
                 <div class="control-title">Brightness</div>
-                    <li>Slider</li>
+                    <input type="range" min="1" max="100" value="50" class="slider-control" id="brightSlide">
                 <div class="control-title">Contrast</div>
-                    <li>Slider</li>
+                    <input type="range" min="1" max="100" value="50" class="slider-control" id="contrastSlide">
                 <div class="control-title">Saturation</div>
-                    <li>Slider</li>
+                    <input type="range" min="1" max="100" value="50" class="slider-control" id="saturationSlide">
                 <h3>Save</h3>
             </div>
         </div>
