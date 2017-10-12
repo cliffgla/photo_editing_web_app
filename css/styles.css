@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: ;
-    background-color: grey;
+    background-color: #99ccff;
     justify-content: space-around;
 
 
@@ -25,7 +25,7 @@ li {
     flex-wrap: wrap;
     margin-bottom: 20px;
     margin-right: 5px;
-    box-shadow: 0px 10px 10px;
+    box-shadow: -5px 10px 30px;
     text-align: center;
     background-color: white;
     position: relative;
@@ -48,8 +48,11 @@ li {
 */
 
 .control-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin-bottom: ;
-    box-shadow: 0px 10px 10px;
+    box-shadow: -5px 10px 30px;
     padding-top: .5em;
     background-color: white;
     margin-top: ;
@@ -66,9 +69,13 @@ li {
     font-size: 1.5em;
     background-color: pink;
     border-radius: 1%;
-    margin: 10px;
     font-family: sans-serif;
     padding: 5px;
+    justify-content: space-around;
+}
+
+.control-title span {
+    margin-bttom:10px;
 }
 
 .sliders {
