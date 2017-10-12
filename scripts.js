@@ -40,3 +40,23 @@ slider3.oninput = function() {
     output3.innerHTML = this.value;
 
 }
+
+function photoLoad() {
+    var filesSelected = document.getElementById("photo-load").files;
+    if (filesSelected.length > 0)
+    {
+        var fileToLoad = filesSelected[0];
+
+        if (fileToLoad.type.match("image.*"))
+        {
+            var fileReader = new FileReader();
+            fileReader.onload = function(fileLoadedEvent)
+            {
+                var imageLoaded = document.createElement("img");
+                imageLoaded.src = fileLoadedEvent.target.result;
+                document.body.appendChild(imageLoaded);
+            };
+            fileReader.readAsDataURL(fileToLoad);
+        }
+    }
+}
