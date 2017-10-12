@@ -15,7 +15,25 @@ function toggle(id) {
 
 
 var slider = document.getElementById('brightSlide');
-var output = document.getElementById('range-value');
+var output = document.getElementById('brightness-value');
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+    output.innerHTML = this.value;
+
+}
+
+var slider = document.getElementById('contrastSlide');
+var output = document.getElementById('contrast-value');
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+    output.innerHTML = this.value;
+
+}
+
+var slider = document.getElementById('saturationSlide');
+var output = document.getElementById('saturation-value');
 output.innerHTML = slider.value;
 
 slider.oninput = function() {
