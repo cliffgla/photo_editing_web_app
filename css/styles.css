@@ -29,7 +29,8 @@ li {
     text-align: center;
     background-color: white;
     position: relative;
-    flex-grow: 2;
+    flex-grow: 5;
+    flex-direction: column;
 
 
 }
@@ -59,10 +60,6 @@ li {
     flex-grow: 1;
     flex-wrap: wrap;
 
-
-
-
-
 }
 
 .control-title {
@@ -71,7 +68,7 @@ li {
     border-radius: 1%;
     font-family: sans-serif;
     padding: 5px;
-    justify-content: space-around;
+
 }
 
 .control-title span {
@@ -86,6 +83,8 @@ li {
     margin-top: 0;
     padding-top: 10px;
 }
+
+
 
 .sliders div {
     padding-bottom: .5em;
