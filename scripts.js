@@ -1,4 +1,5 @@
 //Toggle editing windows
+/*
 function toggle(id) {
     var x = document.getElementById(id);
     console.log(x.style.display)
@@ -9,6 +10,8 @@ function toggle(id) {
     }
 
 }
+
+*/
 
 
 var slider = document.getElementById('brightSlide');

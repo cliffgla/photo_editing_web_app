@@ -45,11 +45,6 @@ li {
 *======Editing Controls======
 */
 
-
-.slider-control {
-
-}
-
 .control-box {
     margin: ;
     border: solid;
@@ -77,6 +72,28 @@ li {
     background-color: white;
     margin-top: 0;
 }
+
+
+.slider-control[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  border-radius: 8px;
+  height: 7px;
+  border: 1px solid #bdc3c7;
+  background-color: #fff;
+}
+.slider-control[type=range]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+	background-color: #ecf0f1;
+	border: 1px solid #bdc3c7;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+
+
 
 
 
