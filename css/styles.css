@@ -59,13 +59,16 @@ li {
 
 
 
+
 }
 
 .control-title {
     font-size: 1.5em;
     background-color: pink;
     border-radius: 1%;
-    margin: 1%;
+    margin: 10px;
+    font-family: sans-serif;
+    padding: 5px;
 }
 
 .sliders {
@@ -74,6 +77,7 @@ li {
     text-align: center;
     background-color: white;
     margin-top: 0;
+    padding-top: 10px; 
 }
 
 
@@ -84,6 +88,8 @@ li {
   height: 7px;
   border: 1px solid #bdc3c7;
   background-color: #fff;
+  margin: 25px;
+
 }
 .slider-control[type=range]::-webkit-slider-thumb{
     -webkit-appearance: none;
@@ -115,7 +121,7 @@ li {
     }
     .control-box {
         width: 28%;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
 
 }
 
