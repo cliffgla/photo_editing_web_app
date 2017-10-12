@@ -87,15 +87,20 @@ li {
     padding-top: 10px;
 }
 
+.sliders div {
+    padding-bottom: .5em;
+}
+
+
 
 .slider-control[type=range] {
   -webkit-appearance: none;
-  width: 75%;
+  width: 100%;
   border-radius: 8px;
-  height: 7px;
+  height: 2px;
   border: 1px solid #bdc3c7;
   background-color: #fff;
-  margin: 10px;
+
 
 }
 .slider-control[type=range]::-webkit-slider-thumb{
