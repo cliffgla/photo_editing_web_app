@@ -5,8 +5,9 @@
 body {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0;
+    margin-top: ;
     background-color: grey;
+    justify-content: space-around;
 
 
 }
@@ -21,9 +22,10 @@ li {
 *======Photo Load and View Area======
 */
 .photo-view {
-    flex-wrap: ;
-    margin-top: 0;
-    border: solid;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    box-shadow: 0px 10px 10px;
     text-align: center;
     background-color: white;
     position: relative;
@@ -46,13 +48,14 @@ li {
 */
 
 .control-box {
-    margin: ;
-    border: solid;
+    margin-bottom: ;
+    box-shadow: 0px 10px 10px;
     padding-top: .5em;
     background-color: white;
     margin-top: ;
     flex-grow: 1;
     flex-wrap: wrap;
+
 
 
 
@@ -101,15 +104,18 @@ li {
 *======Media Queries======
 */
 
-@media (min-width: 150px) {
+@media (min-width: 769px) {
 
     .photo-view {
         width: 70%;
+        margin-bottom: 0;
+        flex-wrap: wrap;
 
 
     }
     .control-box {
         width: 28%;
+        flex-wrap: wrap; 
 
 }
 
