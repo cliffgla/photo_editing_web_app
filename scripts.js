@@ -41,6 +41,8 @@ slider3.oninput = function() {
 
 }
 
+
+/*
 function photoLoad() {
     var filesSelected = document.getElementById("photo-load").files;
     if (filesSelected.length > 0)
@@ -54,9 +56,27 @@ function photoLoad() {
             {
                 var imageLoaded = document.createElement("img");
                 imageLoaded.src = fileLoadedEvent.target.result;
-                document.body.appendChild(imageLoaded);
+                document.getElementById("image-load").innerHTML(imageLoaded);
             };
             fileReader.readAsDataURL(fileToLoad);
         }
     }
 }
+*/
+
+var uploadBtn = document.getElementById("photo-load")
+
+function readURL(input) {
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                document.getElementById("image-load").src = e.target.result;
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+uploadBtn.addEventListener('change',  function() {
+    readURL(this);
+});
