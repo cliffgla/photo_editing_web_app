@@ -12,7 +12,7 @@ function toggle(id) {
 }
 
 */
-
+ 
 
 var slider1 = document.getElementById('brightSlide');
 var output1 = document.getElementById('brightness-value');
