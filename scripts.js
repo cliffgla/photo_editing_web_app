@@ -12,7 +12,15 @@ function toggle(id) {
 }
 
 */
- 
+var value = $("#brightSlide p").text();
+
+function brightValue() {
+    $("#brightness-value").text().change(function() {
+        alert("changed");
+
+    });
+
+}
 
 var slider1 = document.getElementById('brightSlide');
 var output1 = document.getElementById('brightness-value');
