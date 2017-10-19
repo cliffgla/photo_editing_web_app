@@ -12,13 +12,12 @@ function toggle(id) {
 }
 
 */
-var bright = (function (){
-    $("#brightSlide").val();
+function changeBright() {
+    var b = $("#brightSlide").val();
+    $("#testDiv").css("background-color", "rgb("+ b + "," + b +"," + b +")");
+}
 
-});
-
-$("#brightSlide input[type=range]").change(brightVal);
-
+$("input[type=range]").change(changeBright);
 
 
 
