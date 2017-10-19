@@ -12,14 +12,16 @@ function toggle(id) {
 }
 
 */
-var value = document.getElementById("brightness-value").innerHTML;
+var bright = (function (){
+    $("#brightSlide").val();
 
-function valueChange() {
-    value = eventListener().value.getElementById("brightness-value").innerHTML;
+});
 
-}
+$("#brightSlide input[type=range]").change(brightVal);
 
-valueChange();
+
+
+
 
 
 var slider1 = document.getElementById('brightSlide');
