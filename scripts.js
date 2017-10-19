@@ -14,12 +14,12 @@ function toggle(id) {
 */
 function changeBright() {
     var b = $("#brightSlide").val();
-    $("#testDiv").css("background-color", "rgb("+ b + "," + b +"," + b +")");
+    var c = $("#contrastSlide").val();
+    var d = $("#saturationSlide").val();
+    $("#testDiv").css("background-color", "rgb("+ b + "," + c +"," + d +")");
 }
 
 $("input[type=range]").change(changeBright);
-
-
 
 
 
