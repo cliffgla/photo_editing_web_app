@@ -125,10 +125,10 @@ input[type=range]:focus {
 
 .selected[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
-	background-color: #ecf0f1;
-	border: 1px solid green;
-	width: 20px;
-	height: 20px;
+	background-color: red;
+	border: 1px solid red;
+	width: 25px;
+	height: 25px;
 	border-radius: 50%;
 	cursor: pointer;
     background: gold;
