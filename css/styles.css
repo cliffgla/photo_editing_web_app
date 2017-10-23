@@ -45,7 +45,7 @@ li {
 }
 
 #image-load {
-    width: 30%;
+    width: 80%;
     filter: brightness(1) contrast(1) saturate(1);
 }
 /*
