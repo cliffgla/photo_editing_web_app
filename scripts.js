@@ -13,7 +13,7 @@ $("input[value]").change(function() {
     brightVal = (pVal+10)/10.0;
 
     $("#brightness-value").html("<p>"+ pVal + "</p>");
-    $("#image-load").css("filter", "brightness("+ brightVal +") contrast("+ contrastVal +") saturate(" + satVal + ")");
+    $("img").css("filter", "brightness("+ brightVal +") contrast("+ contrastVal +") saturate(" + satVal + ")");
 
     //contrast control
     contrastVal = $("#contrast-input").val();
@@ -23,7 +23,7 @@ $("input[value]").change(function() {
     contrastVal = (pVal+10)/10.0;
 
     $("#contrast-value").html("<p>"+ pVal + "</p>");
-    $("#photo img").css("filter", "brightness("+ brightVal +") contrast("+ contrastVal +") saturate(" + satVal + ")");
+    $("img").css("filter", "brightness("+ brightVal +") contrast("+ contrastVal +") saturate(" + satVal + ")");
 
     //saturation control
     satVal = $("#saturation-input").val();
@@ -33,7 +33,7 @@ $("input[value]").change(function() {
     satVal = (pVal+10)/10.0;
 
     $("#saturation-value").html("<p>"+ pVal + "</p>");
-    $("#photo img").css("filter", "brightness("+ brightVal +") contrast("+ contrastVal +") saturate(" + satVal + ")");
+    $("img").css("filter", "brightness("+ brightVal +") contrast("+ contrastVal +") saturate(" + satVal + ")");
 
 });
 
