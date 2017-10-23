@@ -14,12 +14,17 @@ function toggle(id) {
 */
 function changeBright() {
     var b = $("#brightSlide").val();
+<<<<<<< HEAD
     var c = $("#contrastSlide").val();
     var d = $("saturationSlide").val();
+=======
+>>>>>>> parent of 135d09c... capturing all three slider values in one function to create a color just as a test
     $("#testDiv").css("background-color", "rgb("+ b + "," + b +"," + b +")");
 }
 
 $("input[type=range]").change(changeBright);
+
+
 
 
 
