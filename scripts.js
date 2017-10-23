@@ -37,6 +37,8 @@ $("input[value]").change(function() {
 
 });
 
+
+
 var uploadBtn = document.getElementById("photo-load")
 
 function readURL(input) {
