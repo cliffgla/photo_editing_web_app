@@ -46,7 +46,7 @@ li {
 
 #image-load {
     width: 30%;
-    
+    filter: brightness(1) contrast(1) saturate(1);
 }
 /*
 *======Editing Controls======
