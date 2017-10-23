@@ -37,11 +37,11 @@ $("input[value]").change(function() {
 
 });
 
-$(".slider-control[type=range]").mousedown(function(){
-    $(this).removeClass("slider-control[type=range]");
+$(".slider-control").mousedown(function(){
+    $(this).removeClass("slider-control");
     $(this).addClass("selected").mouseup(function(){
         $(this).removeClass("selected");
-        $(this).addClass("slider-control[type=range]");
+        $(this).addClass("slider-control");
     });
 
 });
