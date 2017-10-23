@@ -4,6 +4,10 @@ var contrastVal;
 
 var satVal;
 
+$("#choose-button").on("click", function() {
+    $("#image-loader").click();
+});
+
 $("input[value]").change(function() {
     //brightness control
     brightVal = $("#brightness-input").val();
@@ -45,9 +49,30 @@ $(".slider-control").on("mousedown",function(){
 
 });
 
-$("#choose-button").on("click", function() {
-    $("#image-loader").click(); 
+$("#brightness-input").dblclick(function(){
+    $("#brightness-input").val(0);
+    brightVal = 1;
+    $("img").css("filter", "brightness("+ brightVal +") contrast("+ contrastVal +") saturate(" + satVal + ")");
+    $("#brightness-value").html("<p>"+ 0 + "</p>");
 });
+
+$("#contrast-input").dblclick(function(){
+    $("#contrast-input").val(0);
+    contrastVal = 1;
+    $("img").css("filter", "brightness("+ brightVal +") contrast("+ contrastVal +") saturate(" + satVal + ")");
+    $("#contrast-value").html("<p>"+ 0 + "</p>");
+});
+
+$("#saturation-input").dblclick(function(){
+    $("#saturation-input").val(0);
+    satVal = 1;
+    $("img").css("filter", "brightness("+ brightVal +") contrast("+ contrastVal +") saturate(" + satVal + ")");
+    $("#saturation-value").html("<p>"+ 0 + "</p>");
+});
+
+
+
+
 
 
 

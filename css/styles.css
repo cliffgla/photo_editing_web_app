@@ -22,7 +22,9 @@ input[type="button"], input[type="file"]{
 }
 
 #choose-button {
-    cursor: pointer; 
+    cursor: pointer;
+    border: solid;
+    background-color: pink; 
 }
 
 /*
