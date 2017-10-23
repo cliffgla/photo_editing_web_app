@@ -44,6 +44,10 @@ li {
 
 }
 
+.hide  {
+    display: none;
+}
+
 #image-load {
     width: 80%;
     filter: brightness(1) contrast(1) saturate(1);
