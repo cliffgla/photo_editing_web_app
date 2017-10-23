@@ -41,9 +41,9 @@ $("input[value]").change(function() {
 
 });
 
-$(".slider-control").on("mousedown",function(){
+$(".slider-control").on("touchstart mousedown",function(){
     $(this).addClass("selected");
-    $(this).mouseup(function(){
+    $(this).on("touchend mouseup", function(){
         $(this).removeClass("selected");
     });
 
