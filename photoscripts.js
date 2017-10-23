@@ -92,3 +92,5 @@ function readURL(input) {
 uploadBtn.addEventListener('change',  function() {
     readURL(this);
 });
+
+/* Mobile Event Handlers */
