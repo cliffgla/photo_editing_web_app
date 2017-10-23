@@ -45,9 +45,11 @@ $(".slider-control").on("mousedown",function(){
 
 });
 
-$("#photo-load").on("click", function() {
-    $(this).hide();
+$("#choose-button").on("click", function() {
+    $("#image-loader").click(); 
 });
+
+
 
 var uploadBtn = document.getElementById("image-loader")
 

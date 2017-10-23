@@ -17,6 +17,13 @@ li {
     padding-left: 0;
 }
 
+input[type="button"], input[type="file"]{
+    display: none;
+}
+
+#choose-button {
+    cursor: pointer; 
+}
 
 /*
 *======Photo Load and View Area======
