@@ -102,7 +102,7 @@ li {
   border-radius: 8px;
   height: 2px;
   border: 1px solid #bdc3c7;
-  background-color: #fff;
+  background-color: #green;
 
 
 }
@@ -115,6 +115,19 @@ li {
 	border-radius: 10px;
 	cursor: pointer;
 
+
+
+}
+
+.selected {
+    -webkit-appearance: none;
+	background-color: #ecf0f1;
+	border: 2px solid #bdc3c7;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+    box-shadow: 0px 0px 2px green;
 }
 
 
